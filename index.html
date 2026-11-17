@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#11100e">
+  <meta name="description" content="GROUND. — простір хорошої кави.">
+
+  <title>2taj. — Дім Кави</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="nav container">
+
+      <a href="#home" class="logo">
+        2taj<span>.</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Відкрити меню"
+        aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Головна</a>
+        <a href="#menu">Меню</a>
+        <a href="#about">Про нас</a>
+        <a href="#contact">Контакти</a>
+      </div>
+
+      <a href="#menu" class="nav-button">
+        Наше меню ↗
+      </a>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero container" id="home">
+
+      <div class="hero-content">
+
+        <p class="eyebrow">
+         затишна кавьярня / EST. 2026
+        </p>
+
+        <h1>
+          лови свій<br>
+          <span>момент.</span>
+        </h1>
+
+        <p class="hero-description">
+          Місце, де аромат свіжої кави,
+          спокійна атмосфера та увага
+          до деталей створюють особливий момент.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#menu" class="button button-primary">
+            Переглянути меню ↘
+          </a>
+
+          <a href="#about" class="button button-secondary">
+            Наша історія
+          </a>
+        </div>
+
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="images/hero-coffee.jpg"
+          alt="Чашка свіжозвареної кави"
+        >
+
+        <span class="image-label">
+          Момент для себе.
+        </span>
+      </div>
+
+      <div class="hero-bottom">
+        <span>КАВА / ЛЮДИ / МОМЕНТИ</span>
+        <span> — ВСТУП</span>
+      </div>
+
+    </section>
+
+    <section class="menu-section section container" id="menu">
+
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">зроблено з турботою</p>
+          <h2>наше меню<span>.</span></h2>
+        </div>
+
+        <p class="section-description">
+          Від класичної кави до особливих
+          авторських напоїв.
+        </p>
+      </div>
+
+      <div class="menu-filters">
+        <button class="filter-button active"
+          data-category="all">Усе</button>
+
+        <button class="filter-button"
+          data-category="coffee">Кава</button>
+
+        <button class="filter-button"
+          data-category="tea">Чай</button>
+
+        <button class="filter-button"
+          data-category="dessert">Десерти</button>
+      </div>
+
+      <div class="menu-grid" id="menuGrid">
+      </div>
+
+    </section>
+
+    <section class="about-section section container" id="about">
+
+      <div class="about-image">
+        <img
+          src="images/interior.jpg"
+          alt="Інтер'єр кав'ярні GROUND"
+        >
+      </div>
+
+      <div class="about-content">
+        <p class="eyebrow">місце для відпочинку</p>
+
+        <h2>
+          більше чим<br>
+          просто <span>кавьярня</span>
+        </h2>
+
+        <p>
+          2taj. — це простір для тих, хто цінує
+          якість, атмосферу та маленькі деталі.
+        </p>
+
+        <p>
+          Ми віримо, що хороша кава може зробити
+          звичайний день трохи особливішим.
+        </p>
+
+        <a href="#contact" class="text-link">
+          Знайти нас ↗
+        </a>
+      </div>
+
+    </section>
+
+    <section class="contact-section section container" id="contact">
+
+      <p class="eyebrow">тут на тебе - чекають</p>
+
+      <h2>
+        Твій столик<br>
+        <span>чекає</span>
+      </h2>
+
+      <div class="contact-grid">
+
+        <div>
+          <span class="contact-label">Адреса</span>
+          <p>Львів, Україна</p>
+        </div>
+
+        <div>
+          <span class="contact-label">Години роботи</span>
+          <p>Пн — Нд / 09:00 — 21:00</p>
+        </div>
+
+        <div>
+          <span class="contact-label">соц мережі</span>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+
+      <a href="#home" class="logo">
+        2taj<span>.</span>
+      </a>
+
+      <p>Designed & built by 2ta © 2026</p>
+
+      <a href="#home">BACK TO TOP ↑</a>
+
+    </div>
+  </footer>
+
+</body>
+</html>
